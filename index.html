@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BMI輕鬆算</title>
+    <link rel="stylesheet" href="css/allBMI.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="banner">
+            <img src="img/BMICLogo.png" alt="">
+            <div class="inputArea">
+                <label for="tall">身高 cm</label>
+                <br>
+                <input type="text" name="varTall" id="tall" placeholder="請輸入身高">
+                <br>
+                <label for="weight">體重 kg</label>
+                <br>
+                <input type="text" name="varWeight" id="weight" placeholder="請輸入體重">
+            </div>
+            <div class="btn">
+                <input class="resultBtn" type="button" value="看結果">
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="history">
+            <h2>BMI 紀錄</h2>
+            <ul class="list"></ul>
+            <div class="clearfix"></div>
+            <p id="clearHistory">清除歷史紀錄</p>
+        </div>
+        <div class="footer">
+            <img src="img/BMICLogo-gray.png" alt="">
+        </div>
+    </div>
+
+    <script src="js/allBMI.js"></script>
+
+</body>
+
+</html>

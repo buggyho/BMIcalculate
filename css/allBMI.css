@@ -1,0 +1,258 @@
+/* CSS reset start */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* CSS reset end */
+
+body{
+    font-family: "微軟正黑體";
+}
+
+.banner{
+    background-color: #424242;
+    padding: 30px 0 30px 27%;
+}
+
+.banner img{
+    float: left;
+    margin: 20px 70px 20px 0;
+}
+
+.inputArea{
+    float: left;
+    margin-right: 70px;
+}
+
+.inputArea input{
+    background: rgba(255,255,255,0.18);
+    border: 2px solid #FFD366;
+    border-radius: 10px;
+    outline: 0px;
+    font-family: "微軟正黑體";
+    font-size: 24px;
+    color: rgba(255,255,255,0.5);
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+
+.inputArea label{
+    float: left;
+    font-size: 18px;
+    color: #FFD366;
+    margin-bottom: 5px
+}
+
+.btn{
+    width: 270px;
+    float: left;
+    padding: 20px 0;
+    position: relative;
+}
+
+.resultBtn{
+    background:#FFD366;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: none;
+    outline: 0px;
+    font-family: "微軟正黑體";
+    font-size: 24px;
+}
+
+.resultBtn:hover{
+    box-shadow: 0 1px 6px 3px rgba(255,196,50,0.64) ;
+}
+
+.resultBtn:active{
+    background: #DEA821;
+    box-shadow: none;
+}
+
+.newBtn{
+    width: 114px;
+    height: 114px;
+    border-radius: 50%;
+    font-family: "微軟正黑體";
+    font-size: 32px;
+    text-align: center;
+    line-height: 114px;
+}
+
+.btn .BMI{
+    font-size: 14px;
+    position: absolute;
+    bottom: 45px;
+    left: 47px;
+}
+
+.btn .judge{
+    font-size: 32px;
+    position: absolute;
+    top: 70px;
+    left: 130px;
+}
+
+#refreshBtn{
+    display: block;
+    background: url(../img/icons_loop.png) no-repeat center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    outline: 0px;
+    margin: 3px;
+    position: absolute;
+    bottom: 20px;
+    left: 85px;
+}
+
+#refreshBtn:hover{
+    box-shadow: 0 0 5px 2px #FFFFFF inset ;
+}
+
+#refreshBtn:active{
+    background: #FFFFFF;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.history{
+    padding: 30px;
+    background: #DDDADC;
+}
+
+.history h2{
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #424242;
+    text-align: center;
+}
+
+.history ul{
+    width: 624px;
+    margin: 0 auto;
+    color: #4A4A4A;
+}
+
+
+.history .boxColor{
+    float: left;
+    width: 7px;
+    height: 58px;
+}
+
+.history ul li{
+    float: left;
+    width: 617px;
+    padding: 15px 0;
+    margin-bottom: 15px;
+    background: #FFFFFF;
+    font-size: 20px;
+}
+
+.history ul li span{
+    font-size: 12px;
+    line-height: 28px;
+    vertical-align: text-top;
+}
+
+.history table td{
+    width: 123px;
+    padding-left: 20px;
+}
+
+#clearHistory{
+    width: 100px;
+    margin: 0 auto;
+    cursor: pointer;
+    color: rgb(192, 41, 159);
+}
+
+#clearHistory:hover{
+    text-decoration: underline;
+}
+
+#clearHistory:active{
+    color: #424242;
+}
+
+#lev1{
+    background-color: #31BAF9;
+}
+
+#lev2{
+    background-color: #86D73F;
+}
+
+#lev3{
+    background-color: #FF982D;
+}
+
+#lev4{
+    background-color: #FF6C03;
+}
+
+#lev5{
+    background-color: #FF6C03;
+}
+
+#lev6{
+    background-color: #FF1200 ;
+}
+
+
+.footer{
+    text-align: center;
+    background: #FFD366;
+    padding: 18px;
+}
+
+.footer img{
+    width: 55px;
+    height: 55px;
+}
+
+
