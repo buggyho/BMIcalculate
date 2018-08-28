@@ -98,6 +98,7 @@ body{
     outline: 0px;
     font-family: "微軟正黑體";
     font-size: 24px;
+    cursor: pointer;
 }
 
 .resultBtn:hover{
@@ -145,6 +146,7 @@ body{
     position: absolute;
     bottom: 20px;
     left: 85px;
+    cursor: pointer;
 }
 
 #refreshBtn:hover{
@@ -207,8 +209,8 @@ body{
 #clearHistory{
     width: 100px;
     margin: 0 auto;
-    cursor: pointer;
     color: rgb(192, 41, 159);
+    cursor: pointer;
 }
 
 #clearHistory:hover{
